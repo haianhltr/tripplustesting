@@ -11,7 +11,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             style={{ color: "inherit", textDecoration: "inherit" }}
             className="link"
           >
-            <img src="/img/tripplus.png" alt="" width="200px" height="70px" />
+            <img src="https://tripplus.ca/wp-content/uploads/2021/05/Drawing1.png" alt="" width="200px" height="70px" />
           </Link>
         </div>
 

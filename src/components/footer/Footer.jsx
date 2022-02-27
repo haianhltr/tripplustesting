@@ -6,7 +6,7 @@ export default function Footer({ menuOpen, setMenuOpen }) {
         <div className="onecontainer">
           <a className="imgcontainer" href="/">
             {" "}
-            <img src="/img/tripplus.png" alt="" width="130px" height="40px" />
+            <img src="https://tripplus.ca/wp-content/uploads/2021/05/Drawing1.png" alt="" width="130px" height="40px" />
           </a>
           <p>420 - 477 West Hasting Street,</p>
           <p>Vancouver, BC V6C 1A5, Canada</p>
