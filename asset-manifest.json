@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/tripplustesting/static/css/main.cbbf53a5.chunk.css",
-    "main.js": "/tripplustesting/static/js/main.bdae4f4d.chunk.js",
-    "main.js.map": "/tripplustesting/static/js/main.bdae4f4d.chunk.js.map",
+    "main.js": "/tripplustesting/static/js/main.ed783ff2.chunk.js",
+    "main.js.map": "/tripplustesting/static/js/main.ed783ff2.chunk.js.map",
     "runtime-main.js": "/tripplustesting/static/js/runtime-main.33f23a48.js",
     "runtime-main.js.map": "/tripplustesting/static/js/runtime-main.33f23a48.js.map",
-    "static/js/2.c73a909e.chunk.js": "/tripplustesting/static/js/2.c73a909e.chunk.js",
-    "static/js/2.c73a909e.chunk.js.map": "/tripplustesting/static/js/2.c73a909e.chunk.js.map",
+    "static/js/2.7a1103a8.chunk.js": "/tripplustesting/static/js/2.7a1103a8.chunk.js",
+    "static/js/2.7a1103a8.chunk.js.map": "/tripplustesting/static/js/2.7a1103a8.chunk.js.map",
     "index.html": "/tripplustesting/index.html",
     "static/css/main.cbbf53a5.chunk.css.map": "/tripplustesting/static/css/main.cbbf53a5.chunk.css.map",
-    "static/js/2.c73a909e.chunk.js.LICENSE.txt": "/tripplustesting/static/js/2.c73a909e.chunk.js.LICENSE.txt"
+    "static/js/2.7a1103a8.chunk.js.LICENSE.txt": "/tripplustesting/static/js/2.7a1103a8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.33f23a48.js",
-    "static/js/2.c73a909e.chunk.js",
+    "static/js/2.7a1103a8.chunk.js",
     "static/css/main.cbbf53a5.chunk.css",
-    "static/js/main.bdae4f4d.chunk.js"
+    "static/js/main.ed783ff2.chunk.js"
   ]
 }
