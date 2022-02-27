@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tripplustesting/static/css/main.cbbf53a5.chunk.css",
-    "main.js": "/tripplustesting/static/js/main.c1d5b4b2.chunk.js",
-    "main.js.map": "/tripplustesting/static/js/main.c1d5b4b2.chunk.js.map",
+    "main.js": "/tripplustesting/static/js/main.bdae4f4d.chunk.js",
+    "main.js.map": "/tripplustesting/static/js/main.bdae4f4d.chunk.js.map",
     "runtime-main.js": "/tripplustesting/static/js/runtime-main.33f23a48.js",
     "runtime-main.js.map": "/tripplustesting/static/js/runtime-main.33f23a48.js.map",
     "static/js/2.c73a909e.chunk.js": "/tripplustesting/static/js/2.c73a909e.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.33f23a48.js",
     "static/js/2.c73a909e.chunk.js",
     "static/css/main.cbbf53a5.chunk.css",
-    "static/js/main.c1d5b4b2.chunk.js"
+    "static/js/main.bdae4f4d.chunk.js"
   ]
 }
