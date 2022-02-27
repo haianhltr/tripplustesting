@@ -1,0 +1,66 @@
+
+.belowslider{
+    
+    padding: 3%;
+ 
+    align-items: center;
+  
+    .container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    .title{
+
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+        font-family: 'Oooh Baby', cursive;
+        text-shadow:
+        0 0 7px #68C2DD,
+        0 0 10px #68C2DD,
+        0 0 21px #68C2DD,
+        0 0 42px #68C2DD,
+        0 0 82px #68C2DD,
+        0 0 92px #68C2DD,
+        0 0 102px #68C2DD,
+        0 0 151px #68C2DD;
+        text-align: center;
+        @media (max-width: 1024px) {
+        margin-top:  2rem;
+           }
+           @media (max-width: 600px) {
+            font-size: 3rem;
+               }
+    }
+
+    .desc{
+        font-size: 20px;
+        font-weight: 300;
+        
+        align-items: center;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+  
+}
+.itemcontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem;
+    @media (max-width: 600px) {
+        padding: 0;
+    
+           }
+ 
+}
+/* Animate neon flicker */
+
+}

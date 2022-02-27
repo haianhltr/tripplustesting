@@ -1,0 +1,113 @@
+.postdetails {
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  @media (min-width: 1024px) {
+    padding: 2rem;
+  }
+  padding-bottom: 3rem;
+  
+  .imgcontainer {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    margin-bottom: 1.5rem;
+
+    img {
+      object-position: top;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+        0 4px 6px -4px rgb(0 0 0 / 0.1);
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+      @media (min-width: 1024px) {
+        border-radius: 0.5rem;
+      }
+    }
+  }
+  .articlecontainer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    @media (min-width: 1024px) {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+      width: 100%;
+
+      .image_author_container {
+        display: none;
+        @media (min-width: 768px) {
+          display: flex;
+        }
+        align-items: center;
+        justify-content: center;
+        @media (min-width: 1024px) {
+          margin-bottom: 0px;
+        }
+        @media (min-width: 1024px) {
+          width: auto;
+        }
+        margin-right: 2rem;
+        align-items: center;
+        img {
+          vertical-align: middle;
+          border-radius: 9999px;
+        }
+        p {
+          display: inline;
+          vertical-align: middle;
+          color: rgb(55 65 81);
+          margin-left: 0.5rem;
+          font-weight: 500;
+          font-size: 1.125rem;
+          line-height: 1.75rem;
+        }
+      }
+
+      .datecontainer {
+        font-weight: 500;
+        color: rgb(51 65 85);
+        .dateimage {
+          height: 1.5rem;
+          width: 1.5rem;
+          display: inline;
+          margin-right: 0.5rem;
+          color: rgb(236 72 153);
+        }
+        .datetext {
+          vertical-align: middle;
+        }
+      }
+    }
+
+    h1 {
+      margin-bottom: 2rem;
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+      font-weight: 600;
+    }
+
+    .h3_case {
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .h4_case {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .p_case {
+      margin-bottom: 2rem;
+    }
+  }
+}

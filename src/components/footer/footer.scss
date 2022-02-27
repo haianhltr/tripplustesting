@@ -1,0 +1,114 @@
+.footer{
+   
+    display: flex;
+  
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+    @media (max-width: 1024px) { 
+        flex-direction: column;   
+    }
+    .one{ 
+        display: flex;
+        justify-content: center;
+        .onecontainer{
+       
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-left:5rem;
+        @media (max-width: 1024px) {
+     
+            margin-left: 1.5rem;
+         
+         }
+
+         .imgcontainer{
+             display: flex;
+        
+           justify-content: flex-start;
+           @media (max-width: 1024px) {
+     
+         
+            justify-content: center;
+             
+             }
+        img{
+   
+            margin-top: 1rem;
+            margin-bottom: 20px;
+        }
+    }
+        @media (max-width: 1024px) {
+     
+        flex:none
+
+         
+         }
+    }
+    }
+    .two{
+        flex: 2;
+        padding: 40px;
+        .info{
+            margin-top: 1rem;
+            list-style-type: none;
+         
+        }
+        @media (max-width: 1024px) {
+     
+            margin-right: 5rem;
+         
+         }
+       
+    
+    }
+    .three{
+        flex: 1;
+        padding: 40px;
+       
+       
+        h1{
+            margin-bottom: 1rem;
+            list-style-type: none;
+         
+        }
+    }
+    .four{
+        flex: 2;
+        padding: 40px;
+        margin-right: 1rem;
+        .info{
+            margin-top: 1rem;
+        }
+            input{
+               display:flex;
+            padding: 10px;
+                outline: none;
+                border: 1px solid #cdcdcd;
+            border-color: rgba(0, 0, 0, .15);
+            background-color: white;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        
+            button{padding: 10px;
+                margin-right: 2%;
+                font-size: 12px;
+                background-color: transparent;
+                cursor: pointer;
+               }
+           
+            }
+    
+    
+    h1 {
+        font-size: 1rem;
+    
+    }
+
+   
+   
+}
+

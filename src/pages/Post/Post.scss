@@ -1,0 +1,40 @@
+.postindividual {
+  .middle {
+    max-width: 1280px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-bottom: 2rem;
+    padding-top: 8rem;
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      @media (min-width: 1024px) {
+        grid-template-columns: repeat(16, minmax(0, 1fr));
+      }
+      gap: 3rem;
+      .postcontainer {
+        grid-column: span 1 / span 1;
+        @media (min-width: 1024px) { 
+        grid-column: span 11 / span 11;
+         }
+      }
+      .sidebar {
+        grid-column: span 1 / span 1;
+        @media (min-width: 1024px) { 	
+            grid-column: span 5 / span 5;
+        }
+       
+        .sidebarcontainer {
+            @media (min-width: 1024px) { position: sticky;
+                top: 8rem;
+              
+            } 
+            position: relative;
+            top: 0rem;
+           
+        }
+      }
+    }
+  }
+}

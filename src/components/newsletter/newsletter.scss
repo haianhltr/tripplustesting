@@ -1,0 +1,48 @@
+.newsletter{
+    height: 40vh;
+    background-color: #fcf5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .title{
+        font-size: 1.3em;
+       padding-left: 10%;
+       padding-right: 10%;
+       margin-bottom: 20px;
+        text-align: center;
+        color:#68C2DD;
+        font-weight: 400;
+        @media (max-width: 640px) {
+     
+          font-size: 1rem;
+         
+         }
+    }
+    .desc{
+        font-size: 24px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        @media (max-width: 640px) {
+     
+            font-size: 1rem;
+           
+           }
+    }
+    .inputcontainer{
+        width: 50%;
+        height: 40px;
+        background-color: white;
+        display: flex;
+  
+        border: 1px solid lightgray;
+
+        input{  border: none;
+            flex: 8;
+            padding-left: 20px;}
+        button{ flex: 1;
+            border: none;
+            background-color: #68C2DD;
+            color: white;}
+    }
+}

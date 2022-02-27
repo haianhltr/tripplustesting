@@ -1,0 +1,61 @@
+.resourceindividual{
+
+  .top{
+   margin-bottom: 7rem;
+  }
+.title{   
+  font-family: 'Oooh Baby', cursive;
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 30px;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  text-shadow:
+  0 0 0px #68C2DD,
+  0 0 7px #68C2DD,
+  0 0 10px #68C2DD,
+  0 0 21px #68C2DD,
+  0 0 42px #68C2DD,
+  0 0 82px #68C2DD,
+  0 0 92px #68C2DD,
+  0 0 102px #68C2DD,
+  0 0 151px #68C2DD;
+}
+  
+
+ .middle{
+   .container{
+    max-width: 1280px;
+  	padding-left: 2.5rem;
+padding-right: 2.5rem;
+    margin-bottom: 2rem;
+ 
+     .grid{
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 3rem;
+      @media (min-width: 1024px) {  grid-template-columns: repeat(12, minmax(0, 1fr)); }
+       .postcard_container{
+      
+        grid-column: span 1 / span 1;
+        @media (min-width: 1024px) {	grid-column: span 8 / span 8; }
+     
+       }
+      .postwidget_container{
+        @media (min-width: 1024px) { 	grid-column: span 4 / span 4;}
+        grid-column: span 1 / span 1;
+        .postwidget_wrapper{
+          @media (min-width: 1024px) { position: sticky;
+          
+          } 
+          position: relative;
+          top: 2rem;
+
+        }
+      }
+
+     }
+   }
+ }
+}
+  
