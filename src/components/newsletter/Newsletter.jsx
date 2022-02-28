@@ -9,7 +9,7 @@ export default function Newsletter({ menuOpen, setMenuOpen }) {
                 <input  placeholder="NAME"></input>
                 <input  placeholder="EMAIL"></input>
                 <input  placeholder="PHONE"></input>
-                <input  placeholder="MESSAGE"></input>
+               
            
 
                 <button className = "button">
