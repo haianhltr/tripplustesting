@@ -7,9 +7,9 @@ export default function Newsletter({ menuOpen, setMenuOpen }) {
             <div className = "desc">You can unsubscribe at any time.</div>
             <div className = "inputcontainer">
                 <input  placeholder="NAME"></input>
-                {/* <input  placeholder="EMAIL"></input>
+                <input  placeholder="EMAIL"></input>
                 <input  placeholder="PHONE"></input>
-                <input  placeholder="MESSAGE"></input> */}
+                <input  placeholder="MESSAGE"></input>
            
 
                 <button className = "button">
