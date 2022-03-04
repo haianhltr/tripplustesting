@@ -75,7 +75,7 @@ export default function Intro() {
             <div className="infoContainer">
               <div className = "titlecontainer">
               <h1 className="title1">{item.title}</h1>
-              <h1 className="title2">TRIPPLUS.CA</h1>
+              <h1 className="title2">TRIPPLUS</h1>
               </div>
               <p className="desc">{item.desc}</p>
               <button className="button">GET STARTED</button>
