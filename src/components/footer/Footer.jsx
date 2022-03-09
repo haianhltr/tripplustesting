@@ -1,4 +1,6 @@
 import "./footer.scss";
+import "../../pages/error/Testing.scss";
+
 export default function Footer({ menuOpen, setMenuOpen }) {
   return (
     <div className="footer">
@@ -38,7 +40,13 @@ export default function Footer({ menuOpen, setMenuOpen }) {
           Enter your email below to sign up for our newsletter
         </p>
         <input placeholder="email"></input>
-        <button>SIGN UP</button>
+        <div class="button_base b07_3d_double_roll">
+       <div>Subcribe</div>
+        <div>Click Here</div>
+        <div>Subcribe</div>
+        <div>Click Here</div>
+      
+    </div>
       </div>
     </div>
   );

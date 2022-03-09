@@ -13,10 +13,10 @@ const Error = () => {
 			</Link>
 			</div>
 		 <div className ="imagecontainer">
-			 <img
+			 {/* <img
               alt='Travel'
               src='https://api.time.com/wp-content/uploads/2014/10/tripomatic.png'
-            />  
+            />   */}
 		
 	</div>
 	</div>

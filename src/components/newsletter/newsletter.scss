@@ -5,6 +5,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
+
     .title{
         font-size: 1.3em;
        padding-left: 10%;
@@ -30,18 +32,23 @@
            }
     }
     .inputcontainer{
-        width: 50%;
-        height: 40px;
-        background-color: white;
+   
+      
         display: flex;
         flex-direction: column;
-      
-        border: 1px solid lightgray;
+  
 
-        input{  border: none;
-            flex: 8;
-            padding-left: 20px;}
-        button{ flex: 1;
+        input{
+            display:flex;
+            padding: 10px;
+          margin: 0.5rem;
+            border: 1px solid #cdcdcd;
+            border-color: rgba(0, 0, 0, .15);
+            background-color: white;
+         
+         }
+     
+        .button{ flex: 1;
             border: none;
             background-color: #68C2DD;
             color: white;}
