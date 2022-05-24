@@ -43,7 +43,7 @@ export default function Popup({ isOpen, setIsOpen }) {
                   <i class="fas fa-user-circle"></i>TRIPPLUS
                 </li>
                 <li>
-                  <i class="fas fa-mobile-alt"></i>+1 (123)-456-789
+                  <i class="fas fa-mobile-alt"></i>+1 (778)-686-2090
                 </li>
               </ul>
               <ul class="socialMedia">
